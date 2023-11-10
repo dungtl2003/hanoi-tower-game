@@ -1,0 +1,31 @@
+"""
+Configurations for the game
+"""
+WIDTH, HEIGHT = 1200, 800
+FPS = 120
+VEL = 70
+
+NUMBER_OF_DISKS = 5
+SRC_COLUMN = 1
+TARGET_COLUMN = 3
+HELPER_COLUMN = 2
+
+MAX_DISK_WIDTH = 350
+DISK_SIZE_DECREASE = 30
+DEFAULT_DISK_HEIGHT = 50
+
+FONT = "Arial"
+FONT_SIZE = 30
+
+DISK_COLORS = [
+    "#E41717",
+    "#FF8000",
+    "#FFFF00",
+    "#80FF00",
+    "#00FF00",
+    "#00FF80",
+    "#00FFFF",
+    "#0080FF",
+    "#FFFF00",
+    "#7F00FF",
+]
