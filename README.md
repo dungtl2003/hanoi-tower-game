@@ -1,5 +1,7 @@
----
 ![hanoi-tower](hanoi-tower-demo.png)
+
+---
+
 # ⇁ Hanoi Tower Game
 The Tower of Hanoi is a mathematical game or puzzle consisting of three rods and a number of disks of various diameters, which can slide onto any rod. This repository will help you virtualize the best way to solve the problem.
 
