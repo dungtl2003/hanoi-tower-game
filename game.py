@@ -93,7 +93,7 @@ def put_in_state(disk, dest, top=None):
     else:
         disk.move(0, VEL)
         collide = pygame.Rect.colliderect(disk.rect, top.rect)
-        if collide:
+        if collide or disk.rect.y > top.rect.y:
             disk.rect.bottom = top.rect.top
             disk.state = STATE.END
             disk.column = dest
